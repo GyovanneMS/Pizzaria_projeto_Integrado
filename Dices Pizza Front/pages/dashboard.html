@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import das Folhas de Estilo-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/admincss/dashboard.css">
+    <!-- Import dos Scripts-->
+    <script src="../js/dashboard.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/b3cdcbfbcc.js" crossorigin="anonymous"></script>
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../img/logo.png" alt="Logo dices pizza">
+        </div>
+        <span class="title-container">
+            <h1>PAINEL DE CONTROLE</h1>
+        </span>
+        <div class="exit">
+            <span id="adm-name">adm name</span>
+            <a href="../admin.html" id="exit">SAIR</a>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="input-container">
+                <input type="radio" name="choices" id="produtos">
+                <label for="produtos" class="input-text">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                    <span>Controle de Produtos</span>
+                </label>
+                <input type="radio" name="choices" id="categorias">
+                <label for="categorias" class="input-text">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Controle de Categorias</span>
+                </label>
+                <input type="radio" name="choices" id="usuarios">
+                <label for="usuarios" class="input-text">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Controle de Usuários</span>
+                </label>
+                <input type="radio" name="choices" id="sabores">
+                <label for="sabores" class="input-text">
+                    <i class="fas fa-drumstick-bite"></i>
+                    <span>Controle de Sabores</span>
+                </label>
+                <input type="radio" name="choices" id="promocoes">
+                <label for="promocoes" class="input-text">
+                    <i class="fa-solid fa-rectangle-ad"></i>
+                    <span>Controle de Promoções</span>
+                </label>
+                <input type="radio" name="choices" id="promocaoPromocoes">
+                <label for="promocaoPromocoes" class="input-text">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <span>Adicionar produtos na promoção</span>
+                </label>
+                <input type="radio" name="choices" id="contatos">
+                <label for="contatos" class="input-text">
+                    <i class="fa-solid fa-mobile"></i>
+                    <span>Contatos</span>
+                </label>
+            </div>
+        </nav>
+        <div>
+            <div id="helpers">
+                <img src="../img/slogan.png" alt="slogan">
+            </div>
+            <div>
+                <div id="container">
+                    <h2 class="dash-title">Seja bem vindo ao Painel de Controle da Dice's Pizza!!!</h2>
+                    <p class="dash-sub">Controle aqui os produtos e informações da pizzaria</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
